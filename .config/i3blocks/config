@@ -1,0 +1,45 @@
+[current-task]
+command=~/.config/i3blocks/scripts/current-task.sh
+interval=5
+markup=pango
+
+[notifications]
+command=~/.config/i3blocks/scripts/notifications.sh
+interval=5
+markup=pango
+
+[notifications-clear]
+command=~/.config/i3blocks/scripts/notifications-clear.sh
+markup=pango
+interval=5
+
+# [load]
+# command=~/.config/i3blocks/scripts/load.sh
+# interval=5
+# markup=pango
+
+[cpu_temp]
+command=~/.config/i3blocks/scripts/cpu_temp.sh
+interval=10
+markup=pango
+
+[wireless]
+command=~/.config/i3blocks/scripts/wireless.sh
+interval=10
+markup=pango
+
+[volume]
+command=~/.config/i3blocks/scripts/volume.sh
+interval=1
+markup=pango
+
+[battery]
+command=~/.config/i3blocks/scripts/battery.sh
+interval=30
+markup=pango
+
+[time]
+command=date '+<span background="#2587cc">    </span><span background="#bfbaac">  %d %b à %H:%M  </span>'
+interval=60
+markup=pango
+
