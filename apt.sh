@@ -16,6 +16,7 @@ apt install -y xautolock
 apt install -y pasystray
 apt remove notify-osd
 apt install -y dunst
-apt install -y speedcrunch
 apt install -y redshift-gtk
-apt install -y maim
+apt install -y maim speedcrunch tilix nautilus pulseaudio xclip keepassxc diodon
+
+# Brave browser (https://brave.com/linux/#debian-ubuntu-mint)
